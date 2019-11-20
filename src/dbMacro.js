@@ -1,5 +1,5 @@
 var odbc = require("odbc");
-var connectionString = "DSN=Macro;UID=system;PWD=manager;DATABASE=DEMOINT";
+var connectionString = "DSN=Mercantil;UID=system;PWD=manager;DATABASE=EMP01";
 var db = new odbc.Database();
 
 db.open(connectionString, function(err) {
